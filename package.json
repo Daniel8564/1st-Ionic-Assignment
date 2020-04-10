@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@capacitor/core": "1.5.2",
+    "@capacitor/android": "^2.0.0",
+    "@capacitor/core": "^1.5.2",
+    "@capacitor/ios": "^2.0.0",
     "@ionic/react": "^5.0.0",
     "@ionic/react-router": "^5.0.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -25,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build command-to-build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "1.5.2"
+    "@capacitor/cli": "^1.5.2"
   },
   "description": "An Ionic project"
 }
